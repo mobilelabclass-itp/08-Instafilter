@@ -5,4 +5,4 @@ Source: [Applying multiple filters to image from Photo library](https://www.hack
 - CoreImage for image filters
 - UIImageWriteToSavedPhotosAlbum to save processed image to Photo library
 
-- Removed NavigationView to for Mac Catalyst
+- Removed NavigationView for Mac Catalyst
