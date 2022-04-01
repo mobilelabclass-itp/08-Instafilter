@@ -27,7 +27,7 @@ struct ContentView: View {
     @State private var showingSaveError = false
 
     var body: some View {
-//        NavigationView {
+// NavigationView {
             VStack {
                 ZStack {
                     Rectangle()
@@ -78,7 +78,7 @@ struct ContentView: View {
                 }
             }
             .padding([.horizontal, .bottom])
-//            .navigationTitle("Instafilter")
+// .navigationTitle("Instafilter")
             .onChange(of: inputImage) { _ in loadImage() }
             .sheet(isPresented: $showingImagePicker) {
                 ImagePicker(image: $inputImage)
@@ -106,7 +106,7 @@ struct ContentView: View {
                 Text("Sorry, there was an error saving your image – please check that you have allowed permission for this app to save photos.")
             }
         }
-//    }
+// }
 
     func loadImage() {
         guard let inputImage = inputImage else { return }
