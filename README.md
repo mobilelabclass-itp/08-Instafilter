@@ -1,4 +1,4 @@
-# 09-Instafilter
+# [08-Instafilter](https://github.com/mobilelabclass-itp/08-Instafilter)
 
 - CoreImage for image filters
 
